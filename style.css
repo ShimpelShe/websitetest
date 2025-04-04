@@ -1,6 +1,6 @@
 html {
     background-color: #000000;
-    font-family: Courier, monospace;
+    font-family: Monomakh ,Courier, monospace;
 }
 
 body {
@@ -11,6 +11,11 @@ body {
     background-color: #103040;
     color: #e9edf1;
     border-radius: 10px;
+}
+
+@font-face {
+    font-family: Monomakh;
+    src: url(./Monomakh-Regular.ttf);
 }
 
 body::selection {
