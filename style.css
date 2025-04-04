@@ -1,0 +1,62 @@
+html {
+    background-color: #000000;
+    font-family: Courier, monospace;
+}
+
+body {
+    margin: 20px;
+    padding: 18.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #103040;
+    color: #e9edf1;
+    border-radius: 10px;
+}
+
+body::selection {
+    background-color: #ffffff;
+    color: #103040;
+}
+
+a:link {
+    color: #40c0f0;
+}
+
+a:visited {
+    color: #f0c040;
+}
+
+@keyframes clink {
+    0% {transform: matrix(1.05, 0, 0, 0.95, 0, 0)}
+    50% {transform: matrix(0.95, 0, 0, 1.05, 0, 0)}
+    100% {transform: matrix(1, 0, 0, 1, 0, 0)}
+}
+
+.supertitle {
+    padding: 15px;
+    background-color: #ffffff;
+    color: #103040;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.supertitle::selection {
+    background-color: #103040;
+    color: #ffffff;
+}
+
+.carved {
+    padding: 10px;
+    background-color: #000000;
+    color: #206080;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #206080;
+}
+
+.carved::selection {
+    background-color: #206080;
+    color: #ffffff;
+}
