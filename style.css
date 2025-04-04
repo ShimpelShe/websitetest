@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: Monomakh;
-    src: url(./Monomakh-Regular.ttf);
+    src: url(./Monomakh-Regular.ttf), url(https://fonts.googleapis.com/css2?family=Monomakh&display=swap);
 }
 
 body::selection {
